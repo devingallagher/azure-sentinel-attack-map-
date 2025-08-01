@@ -61,7 +61,7 @@ Created a dangerously permissive NSG rule:
 * **Priority**: 100
 * **Name**: `DANGER_AllowAnyCustomAnyInbound`
 
-![NSG Rule](walkthrough/08_add_inbound_allow_all_rule.png)
+![NSG Rule](walkthrough/08%20creating%20a%20new%20inbound%20rule%20to%20let%20in%20hackers%20easily%20on%20network.PNG)
 
 This allowed **all traffic from the internet** to the VM — ideal for observing brute-force login attempts.
 
@@ -73,7 +73,7 @@ Turned off firewall for all profiles:
 * Private
 * Public
 
-![Firewall Off](walkthrough/10_disable_firewalls.png)
+![Firewall Off](walkthrough/10%20-%20turn%20off%20vm%20firewalls%20on%20all.PNG)
 
 ---
 
@@ -91,7 +91,7 @@ These were captured by:
 
 ### Final Heatmap:
 
-![Heatmap](walkthrough/31_attack_heatmap.png)
+![Heatmap](walkthrough/31%20-%20attack%20heatmap.PNG)
 
 ---
 
