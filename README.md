@@ -89,9 +89,23 @@ These were captured by:
 * Enriched with GeoIP data
 * Displayed on a custom Sentinel workbook
 
-### Final Heatmap:
+---
 
-![Heatmap](walkthrough/31%20-%20attack%20heatmap.PNG)
+## 🌍 Final Result — Live Global Attack Map
+
+After exposing the honeypot VM to the internet and collecting thousands of failed login attempts (Event ID 4625), logs were enriched with GeoIP data using a custom watchlist.
+
+This final map, powered by Microsoft Sentinel and KQL, shows real attacker IPs geolocated and visualized:
+
+![Live Attack Map](walkthrough/31%20-%20attack%20heatmap.PNG)
+
+> 📈 **Result:** In just one night, the system recorded **29,700+ security events**, mostly failed login attempts — providing rich, real-world telemetry for SOC analysis.
+
+Each dot represents real brute-force attempts made on our intentionally vulnerable VM.
+
+---
+
+
 
 ---
 
