@@ -22,7 +22,8 @@ This setup simulates an attack surface a SOC Analyst or Security Engineer might 
 
 ## 🛠️ Architecture Overview
 
-![Architecture](../walkthrough/27%20final%20architecture.png)
+![Architecture](../walkthrough/27%20final%20architecture.PNG)
+
 
 ### Components:
 
