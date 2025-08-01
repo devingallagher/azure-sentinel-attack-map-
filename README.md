@@ -97,7 +97,8 @@ After exposing the honeypot VM to the internet and collecting thousands of faile
 
 This final map, powered by Microsoft Sentinel and KQL, shows real attacker IPs geolocated and visualized:
 
-![Live Attack Map](walkthrough/31%20-%20attack%20heatmap.PNG)
+![Live Attack Map](walkthrough/20%20overnight%20results.PNG)
+
 
 > 📈 **Result:** In just one night, the system recorded **29,700+ security events**, mostly failed login attempts — providing rich, real-world telemetry for SOC analysis.
 
