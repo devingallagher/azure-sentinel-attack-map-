@@ -112,9 +112,11 @@ Used `map.json` to load a custom workbook showing the attack map.
 ```
 azure-sentinel-attack-map/
 ├── README.md
-├── LICENSE                ← (Optional)
-├── geoip-summarized.csv  ← Uploaded to Sentinel watchlist
-├── map.json              ← Workbook file for dashboard
+├── sentinel-resources/
+    ├──geoip-summarized.csv  ← Uploaded to Sentinel watchlist
+    └── map.json
+├── sentinel-resources/
+    └── geo-enrichment.kql
 ├── walkthrough/          ← All screenshots (in order)
 │   ├── 01_create_resource_group.png
 │   ├── 02_create_virtual_network.png
